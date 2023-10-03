@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.12
 
 RUN pip3 install httpx fastapi pyroscope-io==0.7.1 uvicorn[standard]
 
